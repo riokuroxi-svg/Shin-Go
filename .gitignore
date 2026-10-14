@@ -1,0 +1,22 @@
+# ── Shin-MD-Go ────────────────────────────────────────────────
+# binarios
+dist/
+shin
+shin-termux-arm64
+*.exe
+
+# datos y sesión (¡NUNCA se sube una sesión de WhatsApp!)
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# .env con tus números y llaves
+.env
+cookies.txt
+
+# basura típica
+tmp/
+logs/
+.DS_Store

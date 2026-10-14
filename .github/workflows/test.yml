@@ -1,0 +1,38 @@
+name: test
+
+# Red de seguridad: cada push compila, pasa vet, comprueba formato y corre pruebas.
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: true
+
+      - name: gofmt
+        run: |
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "Estos archivos no están formateados:"; echo "$unformatted"; exit 1
+          fi
+
+      - name: build
+        run: go build ./...
+
+      - name: vet
+        run: go vet ./...
+
+      - name: test
+        run: go test -count=1 ./...
+
+      - name: cross-compilar Termux (arm64)
+        run: GOOS=linux GOARCH=arm64 go build -trimpath -ldflags "-s -w" -o /dev/null ./cmd/shin

@@ -1,0 +1,45 @@
+Shin-MD-Go
+Copyright (C) 2026 riokuroxi-svg
+https://github.com/riokuroxi-svg/Shin-MD-Go
+
+🚧 PROYECTO EN DESARROLLO. Es el núcleo de Shin-MD migrado a Go (whatsmeow),
+todavía NO es un reemplazo completo del bot de JavaScript: faltan los bloques
+B1–B8 (ver README). Lo que hay está verificado y con pruebas.
+
+Shin-MD y 反魂 son marcas de riokuroxi-svg, igual que Shin-MD-Go.
+
+Este proyecto está licenciado bajo AGPL-3.0-only (ver archivo LICENSE).
+Se aplican los mismos términos adicionales de la Sección 7 que en Shin-MD:
+
+1. Atribución obligatoria
+   Las obras derivadas (forks, clones, zips redistribuidos, bots
+   renombrados) deben preservar:
+     - Este archivo NOTICE
+     - El archivo LICENSE
+     - El header SPDX de cada archivo
+   y deben mostrar de forma visible y permanente en el comando #menu
+   y en el comando #owner el texto:
+     "Basado en Shin-MD por riokuroxi-svg - github.com/riokuroxi-svg/Shin-MD"
+
+2. Marca
+   "Shin-MD", "Shin-MD-Go" y "反魂" son marcas de riokuroxi-svg. No se deben
+   usar para promocionar obras derivadas, clones o proyectos distintos.
+
+3. Fingerprint (marcador de obras derivadas)
+   El motor anti-ban incluye la misma combinación única y documentada que
+   Shin-MD (portada 1:1 a Go en internal/wa/queue.go):
+     - jitter Gaussiano (σ 0.25)
+     - retardo base 1200 ms (rango 400–5000 ms, +25 ms por carácter)
+     - perfiles: nuevo 1500 ms / veterano 700 ms
+     - penalización x1.5 para contactos nuevos
+     - warm-up de 7 días: 20 → 500 mensajes/día
+     - cola serial de envío con prioridad y presupuesto diario
+   Un proyecto que contenga esta combinación de parámetros es una obra
+   derivada de Shin-MD y está sujeto a todos los términos de este archivo,
+   la licencia AGPL-3.0-only y el copyright de arriba.
+
+4. Terceros
+   Usa whatsmeow (MPL-2.0) y modernc.org/sqlite (BSD-3-Clause) como
+   dependencias declaradas. Ninguno de los dos es un fork parcheado.
+
+SPDX-License-Identifier: AGPL-3.0-only
