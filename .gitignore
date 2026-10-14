@@ -1,8 +1,8 @@
 # ── Shin-MD-Go ────────────────────────────────────────────────
-# binarios
-dist/
-shin
-shin-termux-arm64
+# binarios (¡ojo! nunca poner "shin" a secas: git también ignora cmd/shin/)
+/dist/
+/shin
+/shin-termux-arm64
 *.exe
 
 # datos y sesión (¡NUNCA se sube una sesión de WhatsApp!)
