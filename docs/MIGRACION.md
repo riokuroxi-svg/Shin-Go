@@ -91,7 +91,7 @@ Traducción honesta:
 
 ## 3. Mapa de equivalencias (archivo por archivo)
 
-| Shin-MD (JS) | Shin-MD-Go | Notas |
+| Shin-MD (JS) | Shin-Go | Notas |
 |---|---|---|
 | `index.js` + `boot/index.js` | `cmd/shin/main.go` | flags `--code`, `--version`; `signal.NotifyContext` = cierre limpio |
 | `src/core/socket.js` | `internal/wa/client.go` | `AddEventHandler` para `Connected/Disconnected/LoggedOut/Message` |
@@ -225,7 +225,7 @@ Regla de oro igual que la tuya: **nada entra sin prueba que lo respalde**.
 
 ## 9. Qué haría yo ahora (orden exacto)
 
-1. Copiar este esqueleto a un repo nuevo `Shin-MD-Go` (AGPL, mismo header).
+1. Copiar este esqueleto a un repo nuevo `Shin-Go` (AGPL, mismo header).
 2. Portar B1–B2 y usarlo **en paralelo** con el bot de JS en un número de prueba
    durante una semana: ahí vas a ver de verdad la diferencia de estabilidad
    (desconexiones, RAM, arranque).

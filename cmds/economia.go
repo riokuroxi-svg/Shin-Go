@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // economia.go — Puerto de cmds/economy/daily.js y perfil.js.
 // Muestra cómo se usa la capa de datos (store) desde un comando.
@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"time"
 
-	"shin-go/internal/bot"
+	"github.com/riokuroxi-svg/Shin-Go/internal/bot"
 )
 
 func init() {

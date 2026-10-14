@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // main.go (paquete cmds) — Aquí viven los comandos. Cada archivo llama a
 // bot.Register() en su init(). Para migrar un comando del JS basta con:

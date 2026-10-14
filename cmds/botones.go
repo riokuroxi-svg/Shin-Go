@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // botones.go — Comandos de demostración de TODO el catálogo de tarjetas.
 // Sirven para probar en el teléfono cuál pinta WhatsApp y cuál no, sin tocar
@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"shin-go/internal/bot"
-	"shin-go/internal/ui"
+	"github.com/riokuroxi-svg/Shin-Go/internal/bot"
+	"github.com/riokuroxi-svg/Shin-Go/internal/ui"
 )
 
 func init() {

@@ -1,11 +1,11 @@
 <div align="center">
 
-# 反魂 · Shin-MD-Go
+# 反魂 · Shin-Go
 
 **El núcleo de Shin-MD, migrado a Go sobre whatsmeow.**
 
-[![Estado](https://img.shields.io/badge/estado-🚧_en_desarrollo-EE3D86?style=flat-square&labelColor=2F1A24)](https://github.com/riokuroxi-svg/Shin-MD-Go)
-[![CI](https://img.shields.io/github/actions/workflow/status/riokuroxi-svg/Shin-MD-Go/test.yml?style=flat-square&label=CI&labelColor=2F1A24&color=EE3D86)](https://github.com/riokuroxi-svg/Shin-MD-Go/actions)
+[![Estado](https://img.shields.io/badge/estado-🚧_en_desarrollo-EE3D86?style=flat-square&labelColor=2F1A24)](https://github.com/riokuroxi-svg/Shin-Go)
+[![CI](https://img.shields.io/github/actions/workflow/status/riokuroxi-svg/Shin-Go/test.yml?style=flat-square&label=CI&labelColor=2F1A24&color=EE3D86)](https://github.com/riokuroxi-svg/Shin-Go/actions)
 ![Go](https://img.shields.io/badge/Go-1.26+-00ADD8?style=flat-square&labelColor=2F1A24)
 ![Tests](https://img.shields.io/badge/pruebas-verdes_✅-3FB950?style=flat-square&labelColor=2F1A24)
 ![Licencia](https://img.shields.io/badge/licencia-AGPL--3.0--only-EE3D86?style=flat-square&labelColor=2F1A24)
@@ -29,7 +29,7 @@
 
 No es un capricho de lenguaje: es quitar de en medio la parte que se rompe.
 
-| En el bot de JS | En Shin-MD-Go |
+| En el bot de JS | En Shin-Go |
 |---|---|
 | `baileys` (fork de terceros) + `patch-baileys-pairing.cjs` parcheando el `postinstall` | Biblioteca de protocolo declarada (whatsmeow). **No hay nada que parchear** |
 | `node_modules` + `sharp` nativo + Node ≥ 22.5 | **1 binario** (17 MB estático para Termux) |
@@ -86,8 +86,8 @@ Catálogo, comparativa con Baileys y estado de verificación: **[docs/BOTONES.md
 ## Instalación
 
 ```bash
-git clone https://github.com/riokuroxi-svg/Shin-MD-Go
-cd Shin-MD-Go
+git clone https://github.com/riokuroxi-svg/Shin-Go
+cd Shin-Go
 
 make build        # dist/shin
 make run          # arranque directo
@@ -126,7 +126,7 @@ RICH_AI=0        # 1 = respuestas enriquecidas estilo IA (experimental)
 ## Arquitectura
 
 ```
-Shin-MD-Go/
+Shin-Go/
 ├── cmd/shin/main.go          arranque (equivale a index.js + boot/index.js)
 ├── cmds/                     1 archivo .go = 1 comando (equivalen a cmds/**/*.js)
 ├── internal/

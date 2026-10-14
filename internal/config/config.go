@@ -1,4 +1,4 @@
-// Shin-MD-Go — esqueleto de migración de Shin-MD (JS) a Go.
+// Shin-Go — esqueleto de migración de Shin-MD (JS) a Go.
 // Copyright (C) 2026 riokuroxi-svg · SPDX-License-Identifier: AGPL-3.0-only
 //
 // config.go — configuración por variables de entorno, con los mismos

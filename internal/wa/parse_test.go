@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 package wa
 
 import (
@@ -9,7 +9,7 @@ import (
 
 	"go.mau.fi/whatsmeow/proto/waE2E"
 
-	"shin-go/internal/config"
+	"github.com/riokuroxi-svg/Shin-Go/internal/config"
 )
 
 var prefixes = []string{".", "/", "#", "!"}

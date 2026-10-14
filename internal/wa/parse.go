@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // parse.go — Leer un mensaje entrante: texto normal, respuesta de botón
 // nativo, o selección de lista. Puerto de parseButtonResponse() del JS.

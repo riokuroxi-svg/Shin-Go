@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // main.go — Arranque. Equivale a index.js → boot/index.js en el JS.
 //
@@ -16,12 +16,12 @@ import (
 	"strings"
 	"syscall"
 
-	_ "shin-go/cmds" // sus init() registran los comandos
-	"shin-go/internal/bot"
-	"shin-go/internal/config"
-	"shin-go/internal/store"
-	"shin-go/internal/wa"
-	"shin-go/internal/xlog"
+	_ "github.com/riokuroxi-svg/Shin-Go/cmds" // sus init() registran los comandos
+	"github.com/riokuroxi-svg/Shin-Go/internal/bot"
+	"github.com/riokuroxi-svg/Shin-Go/internal/config"
+	"github.com/riokuroxi-svg/Shin-Go/internal/store"
+	"github.com/riokuroxi-svg/Shin-Go/internal/wa"
+	"github.com/riokuroxi-svg/Shin-Go/internal/xlog"
 )
 
 var version = "0.1.0-skeleton"

@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // send.go — Envíos de las tarjetas nuevas (imagen+botones, carrusel, lista,
 // encuesta, pin, evento, respuestas enriquecidas). Todos pasan por la cola
@@ -17,7 +17,7 @@ import (
 	"go.mau.fi/whatsmeow/proto/waE2E"
 	"go.mau.fi/whatsmeow/types"
 
-	"shin-go/internal/ui"
+	"github.com/riokuroxi-svg/Shin-Go/internal/ui"
 )
 
 // trySend intenta el envío rico con sus nodos; si falla, manda el texto.

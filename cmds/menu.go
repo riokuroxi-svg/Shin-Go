@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // menu.go — Puerto de cmds/main/menu.js + el .menucat con botones.
 // Es el comando que mejor demuestra las dos cosas que te importan:
@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"shin-go/internal/bot"
-	"shin-go/internal/ui"
+	"github.com/riokuroxi-svg/Shin-Go/internal/bot"
+	"github.com/riokuroxi-svg/Shin-Go/internal/ui"
 )
 
 func init() {

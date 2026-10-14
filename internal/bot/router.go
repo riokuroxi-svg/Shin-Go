@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // router.go — Puerto de src/commands/router.js:
 // mensaje → ¿botón? → serializar → prefijo → cooldown → permisos → handler.
@@ -16,10 +16,10 @@ import (
 	"go.mau.fi/whatsmeow/types"
 	"go.mau.fi/whatsmeow/types/events"
 
-	"shin-go/internal/config"
-	"shin-go/internal/store"
-	"shin-go/internal/wa"
-	"shin-go/internal/xlog"
+	"github.com/riokuroxi-svg/Shin-Go/internal/config"
+	"github.com/riokuroxi-svg/Shin-Go/internal/store"
+	"github.com/riokuroxi-svg/Shin-Go/internal/wa"
+	"github.com/riokuroxi-svg/Shin-Go/internal/xlog"
 )
 
 type Router struct {

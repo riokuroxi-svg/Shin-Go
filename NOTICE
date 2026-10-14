@@ -1,12 +1,12 @@
-Shin-MD-Go
+Shin-Go
 Copyright (C) 2026 riokuroxi-svg
-https://github.com/riokuroxi-svg/Shin-MD-Go
+https://github.com/riokuroxi-svg/Shin-Go
 
 🚧 PROYECTO EN DESARROLLO. Es el núcleo de Shin-MD migrado a Go (whatsmeow),
 todavía NO es un reemplazo completo del bot de JavaScript: faltan los bloques
 B1–B8 (ver README). Lo que hay está verificado y con pruebas.
 
-Shin-MD y 反魂 son marcas de riokuroxi-svg, igual que Shin-MD-Go.
+Shin-MD y 反魂 son marcas de riokuroxi-svg, igual que Shin-Go.
 
 Este proyecto está licenciado bajo AGPL-3.0-only (ver archivo LICENSE).
 Se aplican los mismos términos adicionales de la Sección 7 que en Shin-MD:
@@ -22,7 +22,7 @@ Se aplican los mismos términos adicionales de la Sección 7 que en Shin-MD:
      "Basado en Shin-MD por riokuroxi-svg - github.com/riokuroxi-svg/Shin-MD"
 
 2. Marca
-   "Shin-MD", "Shin-MD-Go" y "反魂" son marcas de riokuroxi-svg. No se deben
+   "Shin-MD", "Shin-Go" y "反魂" son marcas de riokuroxi-svg. No se deben
    usar para promocionar obras derivadas, clones o proyectos distintos.
 
 3. Fingerprint (marcador de obras derivadas)

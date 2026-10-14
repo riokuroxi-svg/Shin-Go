@@ -8,7 +8,7 @@ Ninguna librería "trae botones": las dos mandan **protobuf**. Lo que cambia es
 **(a)** qué campos del proto existen, **(b)** si hay helper o lo armas a mano y
 **(c)** si el cliente de WhatsApp lo pinta en una cuenta normal.
 
-| | Shin-MD hoy<br>`baileys@6.7.24` (tag **legacy**) | Baileys más nuevo<br>`7.0.0-rc14` (**RC**, no estable) | Shin-MD-Go<br>whatsmeow `20261013` |
+| | Shin-MD hoy<br>`baileys@6.7.24` (tag **legacy**) | Baileys más nuevo<br>`7.0.0-rc14` (**RC**, no estable) | Shin-Go<br>whatsmeow `20261013` |
 |---|---|---|---|
 | `interactiveMessage` + `nativeFlowMessage` | sí (proto) | sí (proto) | sí (proto **+ builders tipados**) |
 | `quick_reply` / `cta_url` / `cta_copy` | sí | sí | sí + **tests** |

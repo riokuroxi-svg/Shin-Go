@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // xlog.go — logger estructurado con los mismos iconos que ya usa Shin-MD
 // (◐ ◑ ✓ ✕ ⚠) pero sobre log/slog de la biblioteca estándar. Cero deps.

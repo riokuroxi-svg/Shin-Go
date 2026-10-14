@@ -1,4 +1,4 @@
-module shin-go
+module github.com/riokuroxi-svg/Shin-Go
 
 go 1.26.0
 

@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // client.go — Envoltura sobre whatsmeow: sesión SQLite, emparejamiento
 // (QR y código de 8 dígitos), reconexión y envíos con fallback.
@@ -27,8 +27,8 @@ import (
 	"go.mau.fi/whatsmeow/types/events"
 	waLog "go.mau.fi/whatsmeow/util/log"
 
-	"shin-go/internal/config"
-	"shin-go/internal/xlog"
+	"github.com/riokuroxi-svg/Shin-Go/internal/config"
+	"github.com/riokuroxi-svg/Shin-Go/internal/xlog"
 )
 
 type Client struct {

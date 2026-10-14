@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // rich.go — Lo que WhatsApp añadió DESPUÉS de los botones clásicos, y que hoy
 // ya está en el proto de whatsmeow:

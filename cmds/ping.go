@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // ping.go — Puerto de cmds/main/ping.js, versión Go con botones.
 // Mide la latencia REAL del envío (ida y vuelta por la cola), no un Math.random.
@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"shin-go/internal/bot"
+	"github.com/riokuroxi-svg/Shin-Go/internal/bot"
 )
 
 func init() {

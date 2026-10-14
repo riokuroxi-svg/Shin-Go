@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // command.go — Registro de comandos. En el Shin-MD de JS cada comando es un
 // archivo que se carga con import() dinámico; aquí se registra en un mapa al
@@ -14,10 +14,10 @@ import (
 	"go.mau.fi/whatsmeow/types"
 	"go.mau.fi/whatsmeow/types/events"
 
-	"shin-go/internal/store"
-	"shin-go/internal/ui"
-	"shin-go/internal/wa"
-	"shin-go/internal/xlog"
+	"github.com/riokuroxi-svg/Shin-Go/internal/store"
+	"github.com/riokuroxi-svg/Shin-Go/internal/ui"
+	"github.com/riokuroxi-svg/Shin-Go/internal/wa"
+	"github.com/riokuroxi-svg/Shin-Go/internal/xlog"
 )
 
 type Category string

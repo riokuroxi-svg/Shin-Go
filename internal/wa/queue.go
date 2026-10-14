@@ -1,4 +1,4 @@
-// Shin-MD-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
+// Shin-Go — Copyright (C) 2026 riokuroxi-svg · AGPL-3.0-only
 //
 // queue.go — Cola de envío con jitter gaussiano y calentamiento diario.
 // Es el puerto de la "huella anti-ban" de Shin-MD:
@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"shin-go/internal/config"
+	"github.com/riokuroxi-svg/Shin-Go/internal/config"
 )
 
 type Queue struct {
